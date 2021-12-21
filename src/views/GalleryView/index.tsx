@@ -79,8 +79,8 @@ export const GalleryView: FC = ({}) => {
         </div>
 
         <div className="text-center pt-2">
-          <div className="hero min-h-16 p-0 pt-10">
-            <div className="text-center hero-content w-full">
+          <div className="hero min-h-16 p-0 pt-10"  >
+            <div className="text-center hero-content w-full" style={{backgroundImage: "url(" + "https://cdn.discordapp.com/attachments/875370923954430013/922563686659407882/Untitled_Artwork.png" + ")",padding: "50px"}}>
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
                   
@@ -94,9 +94,9 @@ export const GalleryView: FC = ({}) => {
                    
                           />
 
-                <div className="w-full min-w-full">
+                <div className="w-full min-w-full" >
                   <div>
-                    <div className="form-control mt-8">
+                    <div className="form-control mt-8" >
                      
                     </div>
                   </div>

@@ -41,7 +41,7 @@ export const SelectAndConnectWalletButton: FC<Props> = ({
       onClick={handleWalletClick}
       disabled={connecting}
     >
-      {publicKey ? <div>Use Wallet Address</div> : <div>Connect Wallet</div>}
+      {publicKey ? <div>Move in with the Bears</div> : <div>Connect Wallet</div>}
     </button>
   );
 };

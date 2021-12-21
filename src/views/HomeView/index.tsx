@@ -12,65 +12,67 @@ export const HomeView: FC = ({}) => {
   const onClick = () => {};
 
   return (
+
+    <div  style={{backgroundImage: "url(" + "https://cdn.discordapp.com/attachments/875370923954430013/922202748013936640/Untitled_Artwork.png" + ")", fontFamily: "Skrapbook",justifyContent: "center",
+    display: "flex",
+      textAlign: 'center',
+      flexDirection: "column",}}>
     <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
       <div className={styles.container}>
-        <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+        <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box" style={{backgroundColor: "rgba(25,25,25,0.6)"}}>
           <div className="flex-none">
             <button className="btn btn-square btn-ghost">
-              <span className="text-4xl">🦤</span>
+              <span className="text-4xl">🐻</span>
             </button>
           </div>
           <div className="flex-1 px-2 mx-2">
-            <span className="text-lg font-bold">Caw Caw</span>
+            <span className="text-lg font-bold">Degen Hub</span>
           </div>
           <div className="flex-none">
-            <WalletMultiButton className="btn btn-ghost" />
+          <WalletMultiButton className="btn btn-ghost" style={{color:"black", backgroundColor: "white", fontFamily: "Skrapbook"}}/>
           </div>
         </div>
 
-        <div className="text-center pt-2">
-          <div className="hero min-h-16 py-20">
-            <div className="text-center hero-content">
-              <div className="max-w-lg">
-                <h1 className="mb-5 text-5xl font-bold">
-                  Hello Solana <SolanaLogo /> World!
+    <div style={{color:"black",            justifyContent: "center",
+      display: "flex",
+        textAlign: 'center',
+        height: "86.379999vh",
+        flexDirection: "column",
+          padding: "200px"}}>
+          
+             
+                <h1 className="mb-5 text-5xl font-bold" style={{color:"black",          display: "flex",
+          textAlign: 'center',
+          fontWeight: 'bold',
+          flexDirection: "column",
+          justifyContent: "center",}}>
+                  Degen Bear Hub
                 </h1>
-                <p className="mb-5">
-                  This scaffold includes awesome tools for rapid development and
-                  deploy dapps to Solana: Next.JS, TypeScript, TailwindCSS,
-                  Daisy UI.
-                </p>
-                <p className="mb-5">
-                  Sollana wallet adapter is connected and ready to use.
-                </p>
                 <p>
-                  {publicKey ? <>Your address: {publicKey.toBase58()}</> : null}
-                </p>
+                  <h2 style={{fontSize: "30px"}}>
+                    The Hub for all the utilities created by the Degen Bear Club
+                    </h2>
+                  {publicKey ? <>Logged in as: "{publicKey.toBase58()}"</>: null}
+                  <div style={{padding: "20px", margin: "0px"}}>
+                    <a href="./gallery" className="btn btn-primary btn-lg" > NFT viewer  </a><h1 style={{color:"green"}}>Online</h1>
+
+                    </div>
+                    <div style={{padding: "10px", margin: "0px"}}>
+                    <a href="./" className="btn btn-primary btn-lg" style={{}} >Mint</a><h1 style={{color:"red"}}>Offline</h1>
+                    </div>
+                    <div style={{padding: "10px", margin: "0px"}}>
+                    <a href="./" className="btn btn-primary btn-lg" >Staking</a><h1 style={{color:"red"}}>Offline</h1>
+                    </div>
+                    </p>
+                    <div style={{fontSize: "30px"}}>
+                                    
+                      </div>
               </div>
             </div>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <h1 className="mb-5 pb-8 text-5xl">Templates:</h1>
-            <ul className="text-left leading-10">
-              <li className="mb-5">
-                <Link href="/gallery">
-                  <a className="mb-5 text-4xl font-bold hover:underline">
-                    🏞 -- NFT Gallery
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/mint">
-                  <a className="mb-5 text-4xl font-bold hover:underline">
-                    🍬 -- Candy Machine Mint UI
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
+    
+ 
   );
 };

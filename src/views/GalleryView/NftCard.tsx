@@ -56,9 +56,7 @@ export const NftCard: FC<Props> = ({
           </div>
         )}
       </figure>
-      <div className="card-body">
-        <h2 className="card-title text-sm text-left">{name}</h2>
-      </div>
+
     </div>
   );
 };

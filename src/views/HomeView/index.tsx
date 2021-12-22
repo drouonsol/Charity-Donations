@@ -54,7 +54,7 @@ export const HomeView: FC = ({}) => {
                     </h2>
                   {publicKey ? <>Logged in as: "{publicKey.toBase58()}"</>: null}
                   <div style={{padding: "20px", margin: "0px"}}>
-                    <a href="./" className="btn btn-primary btn-lg" > NFT viewer  </a><h1 style={{color:"red"}}>Offline</h1>
+                    <a href="./" className="btn btn-primary btn-lg" > NFT viewer  </a><h1 style={{color:"orange"}}>Starting ...</h1>
 
                     </div>
                     <div style={{padding: "10px", margin: "0px"}}>

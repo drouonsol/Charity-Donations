@@ -37,7 +37,7 @@ export const GalleryView: FC = ({}) => {
 
   return (
 <div className={styles.container}>
-    <div style={{backgroundImage: "url(" + "https://cdn.discordapp.com/attachments/875370923954430013/922204296299315301/Untitled_Artwork.png" + ")", fontFamily: "Skrapbook",height:"200vh"}} >
+    <div style={{backgroundImage: "url(" + "https://cdn.discordapp.com/attachments/875370923954430013/922204296299315301/Untitled_Artwork.png" + ")", fontFamily: "Skrapbook",}} >
           <div style={{height: "30vh", backgroundColor:"",  justifyContent: "center",
       display: "flex",
         textAlign: 'center',

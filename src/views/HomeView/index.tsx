@@ -13,7 +13,7 @@ export const HomeView: FC = ({}) => {
 
   return (
 
-    <div  style={{backgroundImage: "url(" + "https://cdn.discordapp.com/attachments/875370923954430013/922202748013936640/Untitled_Artwork.png" + ")", fontFamily: "Skrapbook",justifyContent: "center",
+    <div  style={{backgroundImage: "url(" + "https://cdn.discordapp.com/attachments/875370923954430013/924637477724102656/Untitled_Artwork_7.png" + ")", fontFamily: "Skrapbook",justifyContent: "center",
     display: "flex",
       textAlign: 'center',
       flexDirection: "column",}}>
